@@ -34,6 +34,7 @@
 			} completion:completion];
 		} else {
 			heightConstraint.constant = height;
+			[container layoutIfNeeded];
 		}
 	} else {
 		/// iOS7 以前
