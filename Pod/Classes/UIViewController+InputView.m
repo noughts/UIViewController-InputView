@@ -16,8 +16,8 @@
 		/// iOS8 以降
 		UIView* container = self.view.superview.superview;
 		NSLayoutConstraint* heightConstraint = [self heightConstraintOfView:container];
-		NSLog( @"%@", container );
-		NSLog( @"%@", heightConstraint );
+//		NSLog( @"%@", container );
+//		NSLog( @"%@", heightConstraint );
 		[UIView animateWithDuration:0 delay:0 options:(7<<16) animations:^{
 			heightConstraint.constant = height;
 			[container layoutIfNeeded];

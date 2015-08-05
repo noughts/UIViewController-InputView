@@ -70,7 +70,7 @@
 		C79A6E0BFE80DE51E2698D89 /* Pods-UIViewController-InputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Example/Pods-UIViewController-InputView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB4F13715B9886D4C06023FE /* Pods-UIViewController-InputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Tests/Pods-UIViewController-InputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD60FD866436685F189C77B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E66185473A55A0803ECD38BA /* UIViewController-InputView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "UIViewController-InputView.podspec"; path = "../UIViewController-InputView.podspec"; sourceTree = "<group>"; };
+		E66185473A55A0803ECD38BA /* UIViewController+InputView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "UIViewController+InputView.podspec"; path = "../UIViewController+InputView.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E66185473A55A0803ECD38BA /* UIViewController-InputView.podspec */,
+				E66185473A55A0803ECD38BA /* UIViewController+InputView.podspec */,
 				DD60FD866436685F189C77B8 /* README.md */,
 				57FF093FA4C4B66186102B87 /* LICENSE */,
 			);
