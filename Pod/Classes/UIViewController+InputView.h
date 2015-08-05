@@ -10,6 +10,13 @@
 
 @interface UIViewController (InputView)
 
+/// 自身のviewをinputViewに設定した状態での高さを設定します。
+-(void)setHeight:(NSUInteger)height;
+
+/// 自身のviewをinputViewに設定した状態での高さを設定します。
 -(void)setHeight:(NSUInteger)height animated:(BOOL)animated;
+
+/// 自身のviewをinputViewに設定した状態での高さを設定します。
+-(void)setHeight:(NSUInteger)height animated:(BOOL)animated completion:(void (^)(BOOL finished))completion;
 
 @end

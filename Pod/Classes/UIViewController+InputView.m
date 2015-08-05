@@ -11,24 +11,36 @@
 
 @implementation UIViewController (InputView)
 
+-(void)setHeight:(NSUInteger)height{
+	[self setHeight:height animated:NO];
+}
+
 -(void)setHeight:(NSUInteger)height animated:(BOOL)animated{
+	[self setHeight:height animated:animated completion:nil];
+}
+
+-(void)setHeight:(NSUInteger)height animated:(BOOL)animated completion:(void (^)(BOOL finished))completion{
 	if( NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1 ){
 		/// iOS8 以降
 		UIView* container = self.view.superview.superview;
 		NSLayoutConstraint* heightConstraint = [self heightConstraintOfView:container];
-//		NSLog( @"%@", container );
-//		NSLog( @"%@", heightConstraint );
-		[UIView animateWithDuration:0 delay:0 options:(7<<16) animations:^{
+		//		NSLog( @"%@", container );
+		//		NSLog( @"%@", heightConstraint );
+		
+		if( animated ){
+			[UIView animateWithDuration:0 delay:0 options:(7<<16) animations:^{
+				heightConstraint.constant = height;
+				[container layoutIfNeeded];
+			} completion:completion];
+		} else {
 			heightConstraint.constant = height;
-			[container layoutIfNeeded];
-		} completion:^(BOOL finished) {
-			
-		}];
+		}
 	} else {
 		/// iOS7 以前
 		self.view.height = height;
 	}
 }
+
 
 
 /// 高さ制約を返す
