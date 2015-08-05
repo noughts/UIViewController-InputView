@@ -1,8 +1,10 @@
+source 'https://github.com/noughts/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
 target 'UIViewController-InputView_Example', :exclusive => true do
   pod "UIViewController-InputView", :path => "../"
+  pod "NBULog"
 end
 
 target 'UIViewController-InputView_Tests', :exclusive => true do

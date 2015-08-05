@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2DCC838D080DE789370A97 /* libPods-UIViewController-InputView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696619617F671D6131B3D96 /* libPods-UIViewController-InputView_Example.a */; };
+		481333D9510DB0CD7575891B /* libPods-UIViewController-InputView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44AA2E08DCEAA477E851A5E /* libPods-UIViewController-InputView_Tests.a */; };
+		4D5F2E371B71C06E0009B704 /* InputNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F2E361B71C06E0009B704 /* InputNC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +24,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AE0D9BA3341F8779F6DF2D78 /* Pods_UIViewController_InputView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E32D9C312CDFF906CDDEC /* Pods_UIViewController_InputView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BB27E3A7D1469A968C8FA1E7 /* Pods_UIViewController_InputView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33022515A1E7028AE6C4F44 /* Pods_UIViewController_InputView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,11 @@
 
 /* Begin PBXFileReference section */
 		31EB602EB4DFBB4D2C0F87C1 /* Pods-UIViewController-InputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Tests/Pods-UIViewController-InputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A5E32D9C312CDFF906CDDEC /* Pods_UIViewController_InputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewController_InputView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3696619617F671D6131B3D96 /* libPods-UIViewController-InputView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewController-InputView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5F2E351B71C06E0009B704 /* InputNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputNC.h; sourceTree = "<group>"; };
+		4D5F2E361B71C06E0009B704 /* InputNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputNC.m; sourceTree = "<group>"; };
 		57FF093FA4C4B66186102B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* UIViewController-InputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "UIViewController-InputView.app"; path = "UIViewController-InputView_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* UIViewController-InputView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController-InputView_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,15 +55,15 @@
 		6003F5A5195388D20070C39A /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = "UIViewController-InputView_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* UIViewController-InputView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIViewController-InputView_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A44AA2E08DCEAA477E851A5E /* libPods-UIViewController-InputView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewController-InputView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3842AD2DFF9EA69981FB83 /* Pods-UIViewController-InputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Example/Pods-UIViewController-InputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C33022515A1E7028AE6C4F44 /* Pods_UIViewController_InputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewController_InputView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79A6E0BFE80DE51E2698D89 /* Pods-UIViewController-InputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Example/Pods-UIViewController-InputView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB4F13715B9886D4C06023FE /* Pods-UIViewController-InputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController-InputView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewController-InputView_Tests/Pods-UIViewController-InputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD60FD866436685F189C77B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -75,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AE0D9BA3341F8779F6DF2D78 /* Pods_UIViewController_InputView_Example.framework in Frameworks */,
+				3C2DCC838D080DE789370A97 /* libPods-UIViewController-InputView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BB27E3A7D1469A968C8FA1E7 /* Pods_UIViewController_InputView_Tests.framework in Frameworks */,
+				481333D9510DB0CD7575891B /* libPods-UIViewController-InputView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +111,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* UIViewController-InputView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* UIViewController-InputView_Example.app */,
+				6003F5AE195388D20070C39A /* UIViewController-InputView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3A5E32D9C312CDFF906CDDEC /* Pods_UIViewController_InputView_Example.framework */,
-				C33022515A1E7028AE6C4F44 /* Pods_UIViewController_InputView_Tests.framework */,
+				3696619617F671D6131B3D96 /* libPods-UIViewController-InputView_Example.a */,
+				A44AA2E08DCEAA477E851A5E /* libPods-UIViewController-InputView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +140,8 @@
 				6003F5A6195388D20070C39A /* NNViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				4D5F2E351B71C06E0009B704 /* InputNC.h */,
+				4D5F2E361B71C06E0009B704 /* InputNC.m */,
 			);
 			name = "Example for UIViewController-InputView";
 			path = "UIViewController-InputView";
@@ -204,7 +209,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0D10B054F20969F9F1B6F5D8 /* Embed Pods Frameworks */,
 				E75B99666AD2655ABEAE2014 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -213,7 +217,7 @@
 			);
 			name = "UIViewController-InputView_Example";
 			productName = "UIViewController-InputView";
-			productReference = 6003F58A195388D20070C39A /* UIViewController-InputView.app */;
+			productReference = 6003F58A195388D20070C39A /* UIViewController-InputView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* UIViewController-InputView_Tests */ = {
@@ -224,7 +228,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9ABFE1B7AB4443381B75687D /* Embed Pods Frameworks */,
 				F79C0C1FEF37D873F8709B8A /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -234,7 +237,7 @@
 			);
 			name = "UIViewController-InputView_Tests";
 			productName = "UIViewController-InputViewTests";
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* UIViewController-InputView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +246,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NN;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Koichi Yamamoto";
 				TargetAttributes = {
@@ -293,21 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D10B054F20969F9F1B6F5D8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIViewController-InputView_Example/Pods-UIViewController-InputView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		21022EBF32E845A1BF18A4A8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,21 +324,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9ABFE1B7AB4443381B75687D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIViewController-InputView_Tests/Pods-UIViewController-InputView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E75B99666AD2655ABEAE2014 /* Copy Pods Resources */ = {
@@ -391,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* NNAppDelegate.m in Sources */,
+				4D5F2E371B71C06E0009B704 /* InputNC.m in Sources */,
 				6003F5A7195388D20070C39A /* NNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

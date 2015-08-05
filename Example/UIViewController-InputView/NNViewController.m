@@ -7,23 +7,32 @@
 //
 
 #import "NNViewController.h"
+#import "InputNC.h"
+#import <UIViewController+InputView.h>
 
-@interface NNViewController ()
+@implementation NNViewController{
+	__weak IBOutlet UITextField* _tf;
+	InputNC* _input_nc;
+}
 
-@end
-
-@implementation NNViewController
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+	_input_nc = [self.storyboard instantiateViewControllerWithIdentifier:@"InputNC"];
+	_tf.inputView = _input_nc.view;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+-(IBAction)show:(id)sender{
+	[_tf becomeFirstResponder];
+	[_input_nc setHeight:400 animated:YES];
 }
+-(IBAction)hide:(id)sender{
+	[_tf resignFirstResponder];
+}
+-(IBAction)changeHeight:(id)sender{
+	[_input_nc setHeight:200 animated:YES];
+}
+
 
 @end
