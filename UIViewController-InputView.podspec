@@ -8,8 +8,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "UIViewController-InputView"
-  s.version          = "0.1.1"
+  s.name             = "UIViewController+InputView"
+  s.version          = "0.2.0"
   s.summary          = "hoge"
   s.description      = <<-DESC
                        fuga
