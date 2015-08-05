@@ -10,6 +10,7 @@
 		3C2DCC838D080DE789370A97 /* libPods-UIViewController-InputView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696619617F671D6131B3D96 /* libPods-UIViewController-InputView_Example.a */; };
 		481333D9510DB0CD7575891B /* libPods-UIViewController-InputView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44AA2E08DCEAA477E851A5E /* libPods-UIViewController-InputView_Tests.a */; };
 		4D5F2E371B71C06E0009B704 /* InputNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F2E361B71C06E0009B704 /* InputNC.m */; };
+		4D5F2E3A1B71CA6F0009B704 /* InputVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F2E391B71CA6F0009B704 /* InputVC1.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 		3696619617F671D6131B3D96 /* libPods-UIViewController-InputView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewController-InputView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5F2E351B71C06E0009B704 /* InputNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputNC.h; sourceTree = "<group>"; };
 		4D5F2E361B71C06E0009B704 /* InputNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputNC.m; sourceTree = "<group>"; };
+		4D5F2E381B71CA6F0009B704 /* InputVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputVC1.h; sourceTree = "<group>"; };
+		4D5F2E391B71CA6F0009B704 /* InputVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputVC1.m; sourceTree = "<group>"; };
 		57FF093FA4C4B66186102B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UIViewController-InputView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController-InputView_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +145,8 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				4D5F2E351B71C06E0009B704 /* InputNC.h */,
 				4D5F2E361B71C06E0009B704 /* InputNC.m */,
+				4D5F2E381B71CA6F0009B704 /* InputVC1.h */,
+				4D5F2E391B71CA6F0009B704 /* InputVC1.m */,
 			);
 			name = "Example for UIViewController-InputView";
 			path = "UIViewController-InputView";
@@ -366,6 +371,7 @@
 				6003F59E195388D20070C39A /* NNAppDelegate.m in Sources */,
 				4D5F2E371B71C06E0009B704 /* InputNC.m in Sources */,
 				6003F5A7195388D20070C39A /* NNViewController.m in Sources */,
+				4D5F2E3A1B71CA6F0009B704 /* InputVC1.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
